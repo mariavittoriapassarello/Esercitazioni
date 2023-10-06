@@ -17,7 +17,7 @@ Per creare la Container Image:
 podman build -t prova .
 ```
 
-Per creare un'istanza della Container Image:
+Per far partire un'istanza della Container Image:
 
 ```
 podman run --rm --name container prova
