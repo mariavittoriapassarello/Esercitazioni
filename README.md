@@ -9,19 +9,16 @@ Dal terminale, per spostarsi nella Directory dove sono contenuti i file necessar
 
 ```
 cd PodmanLabs
-
 ```
 
 Per creare la Container Image dal Containerfile:
 
 ```
 podman build -t prova .
-
 ```
 
 Per creare un'istanza della Container Image:
 
 ```
 podman run --rm --name container prova
-
 ```
